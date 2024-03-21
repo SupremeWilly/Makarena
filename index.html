@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Makarena</title>
+</head>
+<style>
+    pup1{
+        padding: 4px;
+        width: 200px;
+        background-color: #eeeeee;
+        border: none;
+        box-shadow: 1px 1px 2px #bbbbbb;
+        cursor: pointer;
+    }
+
+    .button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+    
+</style>
+<body>
+    <h1>Makarena</h1>
+    <details class="popup1">
+        <summary>
+            <dl>
+                <dt></dt>
+            </dl>
+        </summary>
+    </details>
+
+    <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">   <br>
+      
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+      
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="Sverige">Sverige</option>
+          <option value="Norge">Norge</option>
+          <option value="Finland">Finland</option>
+        </select>
+      
+        <input class=button type="submit" value="Submit">
+      </form>
+
+
+
+
+</body>
+</html>
